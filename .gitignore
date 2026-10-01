@@ -25,6 +25,13 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# Checkpoints de Jupyter 
+.ipynb\_checkpoints
+# Archivos de datos pesados 
+*.csv
+# Carpetas de gráficos y salidas
+graficos_eda/
+submission.csv
 
 # PyInstaller
 #   Usually these files are written by a python script from a template
